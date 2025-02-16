@@ -20,3 +20,14 @@
 //     console.log("mowsumi is older");
 
 // }
+
+
+let shohag = 1;
+let mowsumi = 2;
+
+let temp = shohag;
+
+shohag = mowsumi
+mowsumi = temp
+console.log(shohag, mowsumi);
+
